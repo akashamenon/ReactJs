@@ -1,0 +1,32 @@
+table,
+th,
+td {
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background: #16a085;
+    border: 1px solid;
+}
+ 
+th,
+td {
+    padding: 20px;
+    color: white;
+}
+ 
+th {
+    text-align: left;
+    color: white;
+}
+h2 {
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+body{
+    background: #1abc9c;
+    overflow: hidden;
+}

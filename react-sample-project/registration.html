@@ -1,0 +1,98 @@
+<html lang="en">
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css" />
+    <script defer src="registration.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="registration-form" action="/">
+        <h1>Registration</h1>
+        <div class="input-control">
+          <label for="firstname">First Name</label
+          ><input id="firstname" name="firstname" type="text" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="lastname">Last Name</label
+          ><input id="lastname" name="lastname" type="text" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="email">Email</label
+          ><input id="email" name="email" type="text" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="contact">Mobile Number</label
+          ><input id="contact" name="contact" type="number" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="date">Date</label
+          ><input id="date" name="date" type="date" />
+          <div class="error"></div>
+        </div>
+        <div class="inputfield">
+          <label>Gender</label>
+          <div>
+            <input
+              type="radio"
+              id="contactChoice1"
+              name="contact"
+              value="email" />
+            <label for="contactChoice1">Male</label>
+            <input
+              type="radio"
+              id="contactChoice2"
+              name="contact"
+              value="phone" />
+            <label for="contactChoice2">Female</label>
+            <input
+              type="radio"
+              id="contactChoice3"
+              name="contact"
+              value="mail" />
+            <label for="contactChoice3">Other</label>
+          </div>
+        </div>
+        <br />
+        <div class="input-control">
+          <label for="address">Address</label
+          ><input id="address" name="address" type="text" />
+          <div class="error"></div>
+        </div>
+        <div class="dropdown">
+          <label for="state">Qualification</label>
+          <select name="State" id="State">
+            <option value="-1">Qualification</option>
+            <option value="High School(10th)">High School(10th)</option>
+            <option value="Higher School(12th)">Higher School(12th)</option>
+            <option value="Graduation(Bachelors)">Graduation(Bachelors)</option>
+            <option value="Post Graduation(Masters)">
+              Post Graduation(Masters)
+            </option>
+          </select>
+          <div class="error"></div>
+        </div>
+        <div class="Multiple Choice">
+          <br />
+          <label for="state">Languages Known</label>
+          <tr>
+            <td>
+              <br />
+              <input type="checkbox" name="English" value="English" />
+              English<br />
+              <input type="checkbox" name="Hindi" value="Hindi" />
+              Hindi<br />
+              <input type="checkbox" name="Malayalam" value="Malayalam" />
+              Malayalam
+            </td>
+          </tr>
+          <div class="error"></div>
+        </div>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>
